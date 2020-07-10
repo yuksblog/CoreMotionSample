@@ -13,6 +13,7 @@
 		247894E824B858E000217E40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247894E724B858E000217E40 /* Assets.xcassets */; };
 		247894EB24B858E000217E40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 247894EA24B858E000217E40 /* Preview Assets.xcassets */; };
 		247894EE24B858E000217E40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 247894EC24B858E000217E40 /* LaunchScreen.storyboard */; };
+		247894F624B85AC900217E40 /* MotionSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247894F524B85AC900217E40 /* MotionSensor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		247894EA24B858E000217E40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		247894ED24B858E000217E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		247894EF24B858E000217E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		247894F524B85AC900217E40 /* MotionSensor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionSensor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				247894E124B858DF00217E40 /* AppDelegate.swift */,
 				247894E324B858DF00217E40 /* SceneDelegate.swift */,
+				247894F524B85AC900217E40 /* MotionSensor.swift */,
 				247894E524B858DF00217E40 /* ContentView.swift */,
 				247894E724B858E000217E40 /* Assets.xcassets */,
 				247894EC24B858E000217E40 /* LaunchScreen.storyboard */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				247894E224B858DF00217E40 /* AppDelegate.swift in Sources */,
+				247894F624B85AC900217E40 /* MotionSensor.swift in Sources */,
 				247894E424B858DF00217E40 /* SceneDelegate.swift in Sources */,
 				247894E624B858DF00217E40 /* ContentView.swift in Sources */,
 			);
